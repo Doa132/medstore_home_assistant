@@ -1,0 +1,41 @@
+add:
+  description: "Add a medication (med_data should be a dict with med fields)"
+  fields:
+    med_data:
+      description: "Medication dictionary (name, strength, dose, doses_per_day, timing, doses_available, refills_available, doses_per_refill, etc.)"
+
+delete:
+  description: "Delete medication at index"
+  fields:
+    index:
+      description: "Index number (0-based)"
+
+update:
+  description: "Update medication fields at index"
+  fields:
+    index:
+      description: "Index number (0-based)"
+    updates:
+      description: "Mapping of fields to update"
+
+toggle_active:
+  description: "Toggle active state for medication at index"
+  fields:
+    index:
+      description: "Index number (0-based)"
+
+take_dose:
+  description: "Mark a dose taken for medication at index"
+  fields:
+    index:
+      description: "Index number (0-based)"
+    dose_index:
+      description: "Index into timing list (0-based)"
+
+add_refill:
+  description: "Add refill (increase doses_available) for med at index"
+  fields:
+    index:
+      description: "Index number (0-based)"
+    amount:
+      description: "Number of doses to add (optional)"

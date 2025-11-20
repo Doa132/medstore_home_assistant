@@ -1,0 +1,10 @@
+{
+  "domain": "medstore",
+  "name": "MedStore",
+  "version": "1.0.0",
+  "documentation": "",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [],
+  "config_flow": false
+}
