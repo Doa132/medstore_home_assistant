@@ -69,3 +69,4 @@ Services created:
         amount:
           description: "Number of doses to add (optional)"
 
+<img width="684" height="870" alt="Example_dashboard" src="https://github.com/user-attachments/assets/d3b05630-fccf-424b-b13c-92220396101d" />
